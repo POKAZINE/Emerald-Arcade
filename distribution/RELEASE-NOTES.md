@@ -4,6 +4,8 @@ NexusArkのペルソナと、盤面ゲーム・カード・ダイス・会話ゲ
 
 ## はじめる
 
+API・MCPの設定は、[連携方法の解説動画（YouTube）](https://youtu.be/-EHe7lOYDls)でも確認できます。NexusArkとEmerald Arcadeの接続設定から、ペルソナがゲームを操作するまでの流れを紹介しています。
+
 Assetsに添付したアプリ用ZIPをダウンロードし、「すべて展開」してREADMEを確認してください。WindowsとNode.js 22.13以降が必要です。`Start.bat`で起動、`Stop.bat`で停止します。最初はAPI利用なしの練習ボットで試せます。
 
 GitHubが自動生成する「Source code」や、開発用ソースのZIPではなく、アプリ用ZIPを選んでください。ペルソナと遊ぶ場合は、別途NexusArkのAPI・MCP設定が必要です。

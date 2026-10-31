@@ -63,6 +63,8 @@ node --no-warnings launcher.mjs
 
 ## 初回の連携
 
+API・MCPの設定は、[連携方法の解説動画（YouTube）](https://youtu.be/-EHe7lOYDls)でも確認できます。NexusArkとEmerald Arcadeの接続設定から、ペルソナがゲームを操作するまでの流れを紹介しています。
+
 ホームの連携ガイドでAPI GatewayのURLと必要なTokenを設定し、相手のルーム一覧を確認します。
 次に、ガイドに表示されるEmerald ArcadeのMCP接続情報をNexusArk本体へ登録し、本体の接続テストとツールの有効化・承認を確認してください。
 本体の版によって設定画面名が違う場合があります。Emerald Arcadeから本体のファイルを自動編集することはありません。

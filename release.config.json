@@ -1,0 +1,75 @@
+{
+  "archiveRoot": "Emerald Arcade",
+  "runtimeDirectories": [
+    "public",
+    "lib"
+  ],
+  "runtimeFiles": [
+    "server.mjs",
+    "launcher.mjs",
+    "stop.mjs",
+    "Start.bat",
+    "Stop.bat"
+  ],
+  "documents": [
+    {
+      "source": "distribution/README.md",
+      "target": "README.md"
+    }
+  ],
+  "optionalDocuments": [
+    "LICENSE",
+    "LICENSE.md",
+    "NOTICE",
+    "NOTICE.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "developmentOnly": [
+    "data",
+    "test-output",
+    "tests",
+    "docs",
+    "scripts",
+    "distribution",
+    "release",
+    "node_modules",
+    ".git",
+    ".github",
+    ".agents",
+    ".codex",
+    ".vscode",
+    ".gitignore",
+    ".gitattributes",
+    "AGENTS.md",
+    "README.md",
+    "package.json",
+    "package-lock.json",
+    "release.config.json"
+  ],
+  "allowedRuntimeExtensions": [
+    ".js",
+    ".mjs",
+    ".cjs",
+    ".json",
+    ".html",
+    ".css",
+    ".svg",
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".webp",
+    ".avif",
+    ".gif",
+    ".ico",
+    ".woff",
+    ".woff2",
+    ".ttf",
+    ".mp3",
+    ".ogg",
+    ".wav",
+    ".flac",
+    ".mp4",
+    ".webm",
+    ".txt"
+  ]
+}

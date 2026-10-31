@@ -1,0 +1,49 @@
+name: 不具合の報告
+description: 起動・連携・ゲームの操作などの問題を報告します。
+title: "[不具合] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Token・接続キー・APIキー・個人情報・会話全文は貼らないでください。
+        dataフォルダやDB、ログ全体の添付は不要です。画像は未公開の手札・真相・接続先を隠してください。
+  - type: input
+    id: version
+    attributes:
+      label: アプリの版・ダウンロードしたZIP名
+      placeholder: v0.1.0・ZIPのファイル名
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: ゲーム名・採用ルール
+      placeholder: ライアーズダイス・通常版／起動時／連携設定など
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 使用環境
+      description: OS、ブラウザ、Node.jsの版、NexusArkの版。PC／スマホ、練習ボット／ペルソナ、使用モデルも分かる範囲で。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 何を選び、どの操作で起きたかを書いてください。毎回起きるかも教えてください。
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 期待していた動きと実際の動き
+      description: エラーの文言があれば、秘密情報を除いて必要な部分だけ記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 補足・画像（任意）
+      description: 秘密情報を隠してから添付してください。

@@ -1,0 +1,16 @@
+{
+  "name": "persona-gameapps",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Emerald Arcade — 非公式のペルソナ対戦ゲーム集",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings server.mjs",
+    "test": "node --no-warnings scripts/test.mjs",
+    "release:check": "node --no-warnings scripts/release.mjs --check",
+    "release:build": "node --no-warnings scripts/release.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
